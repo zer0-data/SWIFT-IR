@@ -32,6 +32,6 @@
 ## 🛠️ Installation
 
 ```bash
-git clone [https://github.com/yourusername/SWIFT-IR.git](https://github.com/yourusername/SWIFT-IR.git)
+git clone [https://github.com/zer0_data/SWIFT-IR.git](https://github.com/zer0_data/SWIFT-IR.git)
 cd SWIFT-IR
 pip install -r requirements.txt
