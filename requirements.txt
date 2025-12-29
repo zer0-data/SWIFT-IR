@@ -1,1 +1,8 @@
+torch
+ultralytics
+pyyaml
+numpy
+tifffile
+imageio
+Pillow
 
