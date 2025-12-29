@@ -1,0 +1,8 @@
+hidden_sizes:
+  - 64
+  - 32
+num_classes: 3
+class_names:
+  - Clear
+  - Fog
+  - Rain
