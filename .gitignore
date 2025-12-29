@@ -1,0 +1,60 @@
+# --- Python General ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.ipynb_checkpoints/
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- SWIFT-IR Data ---
+# Ignore raw and processed datasets (too large for git)
+data/raw/
+data/processed/
+data/pseudo_rgb/
+data/c3i/
+data/flir/
+data/m3fd/
+
+# Exclude large archive files if downloaded to root
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- Model Weights & Checkpoints ---
+# PyTorch & YOLO models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Exclude the specific 'models/' directory contents, 
+# but keep the directory itself (if you use .gitkeep)
+models/*
+!models/.gitkeep
+
+# --- Ultralytics (YOLOv8) ---
+# 'runs/' contains all training logs, plots, and weight saves
+runs/
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# --- WandB (Experiment Tracking) ---
+wandb/
+
+# --- Local configs (optional) ---
+# If you have a local config with API keys for tracking
+configs/local_secrets.yaml
